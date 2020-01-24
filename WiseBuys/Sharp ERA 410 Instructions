@@ -1,0 +1,16 @@
+# Sharp ERA 410
+
+## Background
+
+The Sharp ERA 410 is a popular cash register that is now discontinued. There are two options for programming the Sharp ERA 410, discussed briefly below. The Sharp ERA 410 also can be re-programmed using the `SVC` mode, which is recommended to be handled only by dealers and service providers.
+
+## Programming Options
+### Direct Programming
+//TODO
+
+### Job-Code Programming
+Job-code programming uses specific code numbers followed by `@/for` `.` , then the values specified in the manual for the job, then `Subtotal`. Any quantity of values can be entered, each followed by `Subtotal` to differentiate the sequences, then finalized with `CA`. This guide will be written using the job-code programming.
+
+# Programming a New Department
+## Background
+Departments are a useful tool that appear in the end-of-day reports. A Sharp ERA 410 can support up to 99 departments and can use PLU (Price Look Up) codes to assign products to departments. On the Wise Buys register, the departments are limited to the 20 department keys available on the right of the keyboard. Departments are numbered from bottom to top, starting in the bottom-left corner and working toward the right. 
